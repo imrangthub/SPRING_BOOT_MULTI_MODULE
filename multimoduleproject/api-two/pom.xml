@@ -5,7 +5,12 @@
     <artifactId>multimoduleproject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>shared-module</artifactId>
-  <name>shared-module</name>
-  <description>This module for all api to share common logic</description>
+
+
+
+  <artifactId>api-two</artifactId>
+  <name>api-two</name>
+  <packaging>war</packaging>
+  <version>1.0.1-SNAPSHOT</version>
+  <description>This is second api fopr thos project</description>
 </project>

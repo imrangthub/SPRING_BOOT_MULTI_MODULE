@@ -26,8 +26,9 @@
 	
 	
 	<modules>
-		<module>api-one</module>
 		<module>shared-module</module>
+	    <module>api-one</module>
+		<module>api-two</module>
 	</modules>
 
 	<dependencies>

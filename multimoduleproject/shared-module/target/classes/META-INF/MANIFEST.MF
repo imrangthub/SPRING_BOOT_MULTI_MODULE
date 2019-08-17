@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Implementation-Title: shared-module
-Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Version: 1.0.1-SNAPSHOT
 Built-By: Imran
-Implementation-Vendor-Id: com.multimodule
+Implementation-Vendor-Id: com.multimodule.shared-module
 Build-Jdk: 1.8.0_201
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/multimoduleproject/shared-module
