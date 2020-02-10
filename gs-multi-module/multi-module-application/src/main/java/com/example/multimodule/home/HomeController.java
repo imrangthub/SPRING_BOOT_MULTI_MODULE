@@ -12,7 +12,7 @@ import com.example.multimodule.service.MyService;
 @RestController
 public class HomeController {
 	
-	
+	  
 	@Autowired
 	private MyService myService;
 	
