@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+ 
+   
+  <groupId>com.mymultimoduleworkshopv2</groupId>
+  
+  <artifactId>my-multimodule-workshop-v2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>my-multimodule-workshop-v2</name>
+  <description>Multimodule work shop one</description>
+  
+  
+  <modules>
+  	<module>multimodule-core-workshopv2</module>
+  	<module>multimodule-api-one-workshopv2</module>
+  </modules>
+  
+  
+</project>
