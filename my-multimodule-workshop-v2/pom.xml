@@ -3,6 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<groupId>com.mymultimoduleworkshopv2</groupId>
+	<artifactId>my-multimodule-workshop-v2</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>my-multimodule-workshop-v2</name>
+	<description>Multimodule work shop one</description>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -10,24 +17,20 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
-
-	<groupId>com.mymultimoduleworkshopv2</groupId>
-
-	<artifactId>my-multimodule-workshop-v2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
-	<name>my-multimodule-workshop-v2</name>
-	<description>Multimodule work shop one</description>
+	<properties>
+		<java.version>1.8</java.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+	</properties>
 
 
 	<modules>
 		<module>multimodule-api-one-workshopv2</module>
-	    <module>multimodule-core-workshopv2</module>
+		<module>multimodule-core-workshopv2</module>
 	</modules>
-	
+
 	<dependencies>
-	
-	<dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
@@ -35,8 +38,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -48,10 +49,19 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		
-		
-	</dependencies>
-	
 
+	</dependencies>
+
+	<build>
+		<finalName>${project.artifactId}</finalName>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-maven-plugin</artifactId>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 
 </project>
