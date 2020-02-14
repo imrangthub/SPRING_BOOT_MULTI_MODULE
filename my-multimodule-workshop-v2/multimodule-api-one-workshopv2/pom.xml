@@ -4,17 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.0.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<groupId>com.mymultimoduleworkshopv2</groupId>
+		<artifactId>my-multimodule-workshop-v2</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 
-
-	<groupId>com.multimoduleworkshopv2</groupId>
+	<groupId>com.multimoduleworkshopv2.multimodule-api-one-workshopv2
+	</groupId>
 	<artifactId>multimodule-api-one-workshopv2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>multimodule-api-one-workshop-v1</name>
 	<description>Api One</description>
 
@@ -24,31 +24,26 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.multimoduleworkshopv2</groupId>
-			<artifactId>multimodule-core-workshopv2</artifactId>
-			<version>${project.version}</version>
-		</dependency>
+
+		<!-- <dependency> <groupId>com.multimoduleworkshopv2.multimodule-core-workshopv2</groupId> 
+			<artifactId>multimodule-core-workshopv2</artifactId> <version>1.0.1-SNAPSHOT</version> 
+			</dependency> -->
+			
+<!-- 	<systemPath>C:\DEV\myfunnylib\yourJar.jar</systemPath> -->
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
+			<groupId>com.multimoduleworkshopv2.multimodule-core-workshopv2
+			</groupId>
+			<artifactId>multimodule-core-workshopv2</artifactId>
+			<version>1.0.1-SNAPSHOT</version>
+			<scope>system</scope>
+			<systemPath>C:\Users\USER\.m2\repository\com\multimoduleworkshopv2\multimodule-core-workshopv2\multimodule-core-workshopv2\1.0.1-SNAPSHOT\multimodule-core-workshopv2-1.0.1-SNAPSHOT.jar</systemPath>
 		</dependency>
+
+
+
+
+
 	</dependencies>
 
 	<build>

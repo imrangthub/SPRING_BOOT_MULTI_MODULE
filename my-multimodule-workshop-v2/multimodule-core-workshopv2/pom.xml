@@ -4,17 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.0.RELEASE</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<groupId>com.mymultimoduleworkshopv2</groupId>
+		<artifactId>my-multimodule-workshop-v2</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 
-	<groupId>com.multimoduleworkshopv2</groupId>
+	<groupId>com.multimoduleworkshopv2.multimodule-core-workshopv2</groupId>
 	<artifactId>multimodule-core-workshopv2</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>multimodule-core-workshopv2</name>
+	<packaging>jar</packaging>
 	<description>Share able core library</description>
 
 

@@ -6,7 +6,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.multimoduleworkshopv2"})
+@ComponentScan({"com.multimoduleworkshopv2.apione", "com.multimoduleworkshopv2.core"})
 public class MultimoduleApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {

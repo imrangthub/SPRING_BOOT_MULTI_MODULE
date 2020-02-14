@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.multimoduleworkshopv2.core.service.MyService;
 
-
 @RestController
 public class HomeController {
 	
@@ -30,7 +29,7 @@ public class HomeController {
 	@GetMapping("/msg2")
 	public String msg2(HttpServletRequest request) {
 		
-		myService.getMsg2();
+	myService.getMsg2();
 		
 		return "Home Controller msg2";
 		
