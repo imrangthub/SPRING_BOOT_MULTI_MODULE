@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: multimodule-api-one-workshopv5
+Implementation-Version: 1.0.1-SNAPSHOT
+Built-By: Imran
+Implementation-Vendor-Id: com.mymultimoduleworkshopv5.apione
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/my-multimodule-workshop-v5/multimodule-api-one-work
+ shopv5
+Created-By: Maven Integration for Eclipse
+

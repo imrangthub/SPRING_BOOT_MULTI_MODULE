@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: multimodule-core-workshopv5
+Implementation-Version: 1.0.1-SNAPSHOT
+Built-By: Imran
+Implementation-Vendor-Id: com.multimoduleworkshopv5.multimodule-core-w
+ orkshopv5
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/my-multimodule-workshop-v5/multimodule-core-worksho
+ pv5
+Created-By: Maven Integration for Eclipse
+
