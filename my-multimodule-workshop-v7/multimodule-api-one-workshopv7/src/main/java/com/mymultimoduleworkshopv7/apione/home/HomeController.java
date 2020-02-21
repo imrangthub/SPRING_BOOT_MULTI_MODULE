@@ -19,7 +19,7 @@ public class HomeController {
 
 		coreBaseService.getMsgOne();
 
-		return "From api one Home Controller v7";
+		return "From API ONE Home Controller v7";
 	}
 
 	@GetMapping("/home2")
@@ -27,7 +27,7 @@ public class HomeController {
 
 		coreBaseService.getMsgOne2();
 
-		return "From api one Home Controller v7";
+		return "From API ONE Home Two Controller v7";
 	}
 
 }

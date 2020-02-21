@@ -8,16 +8,16 @@ public class CoreBaseService {
 	
 	public String getMsgOne() {
 		
-	System.out.println("This is Msg One from Cor Base Service  Projecrt v7");
+	System.out.println("From Core# Common Welcome Message For all API");
 		
-		return "Msg from Cor Base Service 7";
+		return "From Core# Common Welcome Message For all API";
 	}
 	
 	public String getMsgOne2() {
 		
-		System.out.println("This is Msg Two from Cor Base Service  Projecrt v7");
+		System.out.println("From Core# Second Common Welcome Message For all API");
 		
-		return "Msg from Cor Base Service 7";
+		return "From Core# Second Common Welcome Message For all API";
 	}
 	
 	

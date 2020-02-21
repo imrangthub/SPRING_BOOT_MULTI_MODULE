@@ -48,6 +48,7 @@
 		<module>multimodule-core-workshopv7</module>
 		<module>multimodule-api-one-workshopv7</module>
 		<module>multimodule-api-two-workshopv7</module>
+		<module>multimodule-shared-workshopv7</module>
 	</modules>
 
 

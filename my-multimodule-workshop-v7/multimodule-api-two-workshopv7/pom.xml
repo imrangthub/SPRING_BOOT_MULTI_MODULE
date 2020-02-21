@@ -24,8 +24,8 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>com.multimoduleworkshopv7.multimodule-core-workshopv7</groupId>
-			<artifactId>multimodule-core-workshopv7</artifactId>
+			<groupId>com.multimoduleworkshopv7.multimodule-shared-workshopv7</groupId>
+			<artifactId>multimodule-shared-workshopv7</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
