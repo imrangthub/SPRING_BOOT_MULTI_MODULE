@@ -43,6 +43,12 @@
 
 
 	</dependencies>
+	
+	<modules>
+		<module>multimodule-core-workshopv7</module>
+		<module>multimodule-api-one-workshopv7</module>
+		<module>multimodule-api-two-workshopv7</module>
+	</modules>
 
 
 	<build>
@@ -58,7 +64,4 @@
 	</build>
 
 
-	<modules>
-		<module>multimodule-core-workshopv7</module>
-	</modules>
 </project>
